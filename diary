@@ -1,0 +1,3787 @@
+
+START TIME:    30-Dec-2018 13:03:02
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{'opRestriction' is not found in the current folder or on the MATLAB path, but exists in:
+    D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute
+
+<a href = "matlab:cd 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">Change the MATLAB current folder</a> or <a href = "matlab:addpath 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">add its folder to the MATLAB path</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 795)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',795,0)">line 795</a>)
+   A = opRestriction(numel(W),IDX); %ii1=sqrt(nu1)*ones(size(matrix));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 87)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',87,0)">line 87</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 15:46:57
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{'opRestriction' is not found in the current folder or on the MATLAB path, but exists in:
+    D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute
+
+<a href = "matlab:cd 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">Change the MATLAB current folder</a> or <a href = "matlab:addpath 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">add its folder to the MATLAB path</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 795)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',795,0)">line 795</a>)
+   A = opRestriction(numel(W),IDX); %ii1=sqrt(nu1)*ones(size(matrix));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 87)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',87,0)">line 87</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 15:47:06
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{'opRestriction' is not found in the current folder or on the MATLAB path, but exists in:
+    D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute
+
+<a href = "matlab:cd 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">Change the MATLAB current folder</a> or <a href = "matlab:addpath 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">add its folder to the MATLAB path</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 795)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',795,0)">line 795</a>)
+   A = opRestriction(numel(W),IDX); %ii1=sqrt(nu1)*ones(size(matrix));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 87)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',87,0)">line 87</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 15:47:14
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{'opRestriction' is not found in the current folder or on the MATLAB path, but exists in:
+    D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute
+
+<a href = "matlab:cd 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">Change the MATLAB current folder</a> or <a href = "matlab:addpath 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">add its folder to the MATLAB path</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 795)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',795,0)">line 795</a>)
+   A = opRestriction(numel(W),IDX); %ii1=sqrt(nu1)*ones(size(matrix));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 87)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',87,0)">line 87</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 15:47:24
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{'opRestriction' is not found in the current folder or on the MATLAB path, but exists in:
+    D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute
+
+<a href = "matlab:cd 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">Change the MATLAB current folder</a> or <a href = "matlab:addpath 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">add its folder to the MATLAB path</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 795)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',795,0)">line 795</a>)
+   A = opRestriction(numel(W),IDX); %ii1=sqrt(nu1)*ones(size(matrix));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 87)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',87,0)">line 87</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 15:47:30
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{'opRestriction' is not found in the current folder or on the MATLAB path, but exists in:
+    D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute
+
+<a href = "matlab:cd 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">Change the MATLAB current folder</a> or <a href = "matlab:addpath 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">add its folder to the MATLAB path</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 795)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',795,0)">line 795</a>)
+   A = opRestriction(numel(W),IDX); %ii1=sqrt(nu1)*ones(size(matrix));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 87)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',87,0)">line 87</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 15:47:46
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{Undefined function or variable 'opDiag'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 796)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',796,0)">line 796</a>)
+   A2=opDiag(numel(W),sqrt(nu1));%opMask(ii1(:));%opDirac(numel(W));%opDiag(size(matrix,1),
+   sqrt(nu1));%ii2=sqrt(nu2)*ones(size(matrix));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 87)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',87,0)">line 87</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 15:48:06
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{Undefined function or variable 'opStack'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 798)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',798,0)">line 798</a>)
+   AA=opStack(A,A2,  A3  );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 87)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',87,0)">line 87</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 15:48:29
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{'checkDimensions' is not found in the current folder or on the MATLAB path, but exists in:
+    D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute
+
+<a href = "matlab:cd 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">Change the MATLAB current folder</a> or <a href = "matlab:addpath 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">add its folder to the MATLAB path</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('opRestriction>opRestriction_intrnl', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\Dependencies\opRestriction.m', 25)" style="font-weight:bold">opRestriction>opRestriction_intrnl</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\Dependencies\opRestriction.m',25,0)">line 25</a>)
+checkDimensions(m,n,x,mode);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('opRestriction>@(x,mode)opRestriction_intrnl(n,idx,x,mode)', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\Dependencies\opRestriction.m', 20)" style="font-weight:bold">opRestriction>@(x,mode)opRestriction_intrnl(n,idx,x,mode)</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\Dependencies\opRestriction.m',20,0)">line 20</a>)
+op = @(x,mode) opRestriction_intrnl(n,idx,x,mode);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('opStack', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\Dependencies\opStack.m', 35)" style="font-weight:bold">opStack</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\Dependencies\opStack.m',35,0)">line 35</a>)
+   info = opList{1}([],0);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 798)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',798,0)">line 798</a>)
+   AA=opStack(A,A2,  A3  );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 87)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',87,0)">line 87</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+
+
+clc
+clear
+run2
+
+START TIME:    30-Dec-2018 15:48:52
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{'checkDimensions' is not found in the current folder or on the MATLAB path, but exists in:
+    D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute
+
+<a href = "matlab:cd 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">Change the MATLAB current folder</a> or <a href = "matlab:addpath 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob10_grmfImpute'">add its folder to the MATLAB path</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('opRestriction>opRestriction_intrnl', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\Dependencies\opRestriction.m', 25)" style="font-weight:bold">opRestriction>opRestriction_intrnl</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\Dependencies\opRestriction.m',25,0)">line 25</a>)
+checkDimensions(m,n,x,mode);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('opRestriction>@(x,mode)opRestriction_intrnl(n,idx,x,mode)', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\Dependencies\opRestriction.m', 20)" style="font-weight:bold">opRestriction>@(x,mode)opRestriction_intrnl(n,idx,x,mode)</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\Dependencies\opRestriction.m',20,0)">line 20</a>)
+op = @(x,mode) opRestriction_intrnl(n,idx,x,mode);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('opStack', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\Dependencies\opStack.m', 35)" style="font-weight:bold">opStack</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\Dependencies\opStack.m',35,0)">line 35</a>)
+   info = opList{1}([],0);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 798)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',798,0)">line 798</a>)
+   AA=opStack(A,A2,  A3  );
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 87)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',87,0)">line 87</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 15:50:43
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{'IST_MC2' is not found in the current folder or on the MATLAB path, but exists in:
+    D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob11_grmcImpute
+
+<a href = "matlab:cd 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob11_grmcImpute'">Change the MATLAB current folder</a> or <a href = "matlab:addpath 'D:\AanchalMongia_phdClg\Phd\Matlab\MatlabWorkspace\Prob11_grmcImpute'">add its folder to the MATLAB path</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 812)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',812,0)">line 812</a>)
+         [X] = IST_MC2( YY , AA,[ 1*size(matrix,1) size(matrix,2)],0,lamda);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 87)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',87,0)">line 87</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',812,0)
+run2
+
+START TIME:    30-Dec-2018 15:51:07
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.6408
+
+
+aupr_std =
+
+    0.0234
+
+
+auc =
+
+    0.9083
+
+
+auc_std =
+
+    0.0058
+
+ 
+Elapsed time is 23.160844 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S2 - DRUG
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.5620
+
+
+aupr_std =
+
+    0.0262
+
+
+auc =
+
+    0.8452
+
+
+auc_std =
+
+    0.0215
+
+ 
+Elapsed time is 6.906787 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S3 - TARGET
+ 
+
+Similarity type: cosine
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.4356
+
+
+aupr_std =
+
+    0.0177
+
+
+auc =
+
+    0.7263
+
+
+auc_std =
+
+    0.0211
+
+ 
+Elapsed time is 6.860873 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+START TIME:    30-Dec-2018 15:53:50
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'cosine'}    {'correlation'}    {'hamming'}    {'jaccard'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+{Undefined function or variable 'simi'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 72)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',72,0)">line 72</a>)
+    fprintf('\nSimilarity type: %s\n', similarity_types{simi});
+} 
+opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',72,0)
+run2
+
+START TIME:    30-Dec-2018 15:54:36
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.8791
+
+
+aupr_std =
+
+    0.0019
+
+
+auc =
+
+    0.9660
+
+
+auc_std =
+
+    0.0056
+
+ 
+Elapsed time is 26.012153 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S2 - DRUG
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.8773
+
+
+aupr_std =
+
+    0.0125
+
+
+auc =
+
+    0.9533
+
+
+auc_std =
+
+    0.0127
+
+ 
+Elapsed time is 7.740191 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S3 - TARGET
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.5418
+
+
+aupr_std =
+
+    0.0309
+
+
+auc =
+
+    0.7502
+
+
+auc_std =
+
+    0.0285
+
+ 
+Elapsed time is 16.578678 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+START TIME:    30-Dec-2018 15:55:50
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: gpcr
+**************************************************
+aupr =
+
+    0.8515
+
+
+aupr_std =
+
+    0.0033
+
+
+auc =
+
+    0.9785
+
+
+auc_std =
+
+    0.0020
+
+ 
+Elapsed time is 162.094453 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S2 - DRUG
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: gpcr
+*****if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:00:00
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: ic
+**if system_dependent('IsDebugMode')==1, dbcont; end
+*****if system_dependent('IsDebugMode')==1, dbcont; end
+{'SVS' is not found in the current folder or on the MATLAB path, but exists in:
+    C:\Users\Aanchal\Desktop\MGRNNMforDTI
+
+<a href = "matlab:cd 'C:\Users\Aanchal\Desktop\MGRNNMforDTI'">Change the MATLAB current folder</a> or <a href = "matlab:addpath 'C:\Users\Aanchal\Desktop\MGRNNMforDTI'">add its folder to the MATLAB path</a>.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 812)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',812,0)">line 812</a>)
+         [X] = SVS( YY , AA,[ 1*size(matrix,1) size(matrix,2)],0,lamda);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 16:02:13
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: ic
+{Error: <a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\getdata.m',23,1)">File: getdata.m Line: 23 Column: 1
+</a>This statement is not inside any function.
+ (It follows the END that terminates the definition of the function "getdata".)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 74)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',74,0)">line 74</a>)
+            [Y,Sd,St,~,~]=getdata(datasets{ds},similarity_types);
+} 
+opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',74,0)
+opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\getdata.m',23,1)
+run2
+
+START TIME:    30-Dec-2018 16:02:41
+
+
+predictionMethods =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'grmc2'}
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: ic
+******if system_dependent('IsDebugMode')==1, dbcont; end
+******************if system_dependent('IsDebugMode')==1, dbquit all; end
+run2
+
+START TIME:    30-Dec-2018 16:10:50
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: ic
+*{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('times')" style="font-weight:bold"> .* </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_mgrnnm', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 405)" style="font-weight:bold">alg_template>alg_mgrnnm</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',405,0)">line 405</a>)
+    r2=sqrt(nu1).*Z'; r3=sqrt(nu2).*Y;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 16:10:53
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: ic
+*{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('times')" style="font-weight:bold"> .* </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_mgrnnm', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 405)" style="font-weight:bold">alg_template>alg_mgrnnm</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',405,0)">line 405</a>)
+    r2=sqrt(nu1).*Z'; r3=sqrt(nu2).*Y;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 16:11:07
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: ic
+*{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('times')" style="font-weight:bold"> .* </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_mgrnnm', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 405)" style="font-weight:bold">alg_template>alg_mgrnnm</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',405,0)">line 405</a>)
+    r2=sqrt(nu1).*Z'; r3=sqrt(nu2).*Y;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 16:11:32
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: nr
+*{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('times')" style="font-weight:bold"> .* </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_mgrnnm', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 405)" style="font-weight:bold">alg_template>alg_mgrnnm</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',405,0)">line 405</a>)
+    r2=sqrt(nu1).*Z'; r3=sqrt(nu2).*Y;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',405,0)
+
+
+
+clc
+clear
+run2
+
+START TIME:    30-Dec-2018 16:14:29
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: nr
+*{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('times')" style="font-weight:bold"> .* </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_mgrnnm', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 373)" style="font-weight:bold">alg_template>alg_mgrnnm</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',373,0)">line 373</a>)
+    r2=sqrt(nu1).*Z'; r3=sqrt(nu2).*Y;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 16:14:50
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: nr
+*{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('times')" style="font-weight:bold"> .* </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_mgrnnm', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 373)" style="font-weight:bold">alg_template>alg_mgrnnm</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',373,0)">line 373</a>)
+    r2=sqrt(nu1).*Z'; r3=sqrt(nu2).*Y;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y)
+} 
+run2
+
+START TIME:    30-Dec-2018 16:15:20
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: nr
+*{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('times')" style="font-weight:bold"> .* </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_mgrnnm', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 373)" style="font-weight:bold">alg_template>alg_mgrnnm</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',373,0)">line 373</a>)
+    r2=sqrt(nu1).*Z'; r3=sqrt(nu2).*Y;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y)
+} 
+opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',373,0)
+run2
+
+START TIME:    30-Dec-2018 16:16:26
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: nr
+*{Undefined function or variable 'alg_mgrnnm'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y)
+} 
+run2
+
+START TIME:    30-Dec-2018 16:16:31
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: nr
+*{Undefined function or variable 'alg_mgrnnm'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 16:16:55
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.8791
+
+
+aupr_std =
+
+    0.0019
+
+
+auc =
+
+    0.9660
+
+
+auc_std =
+
+    0.0056
+
+ 
+Elapsed time is 15.648155 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S2 - DRUG
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.8773
+
+
+aupr_std =
+
+    0.0125
+
+
+auc =
+
+    0.9533
+
+
+auc_std =
+
+    0.0127
+
+ 
+Elapsed time is 5.906510 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S3 - TARGET
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.5418
+
+
+aupr_std =
+
+    0.0309
+
+
+auc =
+
+    0.7502
+
+
+auc_std =
+
+    0.0285
+
+ 
+Elapsed time is 12.289937 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmf
+CV Setting Used: S1 - PAIR
+ 
+lambda_l=0.125, lambda_d=0.15, lambda_t=0.05, p=2
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.7941
+
+
+aupr_std =
+
+    0.0236
+
+
+auc =
+
+    0.9591
+
+
+auc_std =
+
+    0.0090
+
+ 
+Elapsed time is 1.496819 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmf
+CV Setting Used: S2 - DRUG
+ 
+lambda_l=0.0625, lambda_d=0.05, lambda_t=0.1, p=2
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.8847
+
+
+aupr_std =
+
+    0.0112
+
+
+auc =
+
+    0.9503
+
+
+auc_std =
+
+    0.0126
+
+ 
+Elapsed time is 1.269196 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmf
+CV Setting Used: S3 - TARGET
+ 
+lambda_l=0.125, lambda_d=0.2, lambda_t=0.05, p=2
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.5601
+
+
+aupr_std =
+
+    0.0322
+
+
+auc =
+
+    0.7997
+
+
+auc_std =
+
+    0.0195
+
+ 
+Elapsed time is 1.291548 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = cmf
+CV Setting Used: S1 - PAIR
+ 
+lambda_l=1, lambda_d=2, lambda_t=0.125
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.5893
+
+
+aupr_std =
+
+    0.0148
+
+
+auc =
+
+    0.8448
+
+
+auc_std =
+
+    0.0195
+
+ 
+Elapsed time is 1.235468 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = cmf
+CV Setting Used: S2 - DRUG
+ 
+lambda_l=1, lambda_d=4, lambda_t=32
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.9274
+
+
+aupr_std =
+
+    0.0226
+
+
+auc =
+
+    0.9741
+
+
+auc_std =
+
+    0.0097
+
+ 
+Elapsed time is 1.258199 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = cmf
+CV Setting Used: S3 - TARGET
+ 
+lambda_l=0.25, lambda_d=0.25, lambda_t=32
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.2815
+
+
+aupr_std =
+
+    0.0330
+
+
+auc =
+
+    0.6419
+
+
+auc_std =
+
+    0.0226
+
+ 
+Elapsed time is 1.238237 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+START TIME:    30-Dec-2018 16:19:17
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: nr
+*{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('times')" style="font-weight:bold"> .* </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_mgrnnm', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 807)" style="font-weight:bold">alg_template>alg_mgrnnm</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',807,0)">line 807</a>)
+    r2=sqrt(nu1).*Z'; r3=sqrt(nu2).*Y;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 16:19:43
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: nr
+*{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('times')" style="font-weight:bold"> .* </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_mgrnnm', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 807)" style="font-weight:bold">alg_template>alg_mgrnnm</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',807,0)">line 807</a>)
+    r2=sqrt(nu1).*Z'; r3=sqrt(nu2).*Y;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 16:19:53
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{Undefined function or variable 'alg_grmc2'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+run2
+
+START TIME:    30-Dec-2018 16:20:04
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+****if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:20:20
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sylvester>parse_inputs', 'C:\Program Files\MATLAB\R2018a\toolbox\matlab\matfun\sylvester.m', 62)" style="font-weight:bold">sylvester>parse_inputs</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2018a\toolbox\matlab\matfun\sylvester.m',62,0)">line 62</a>)
+Inputs must have compatible size.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sylvester', 'C:\Program Files\MATLAB\R2018a\toolbox\matlab\matfun\sylvester.m', 9)" style="font-weight:bold">sylvester</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2018a\toolbox\matlab\matfun\sylvester.m',9,0)">line 9</a>)
+parse_inputs(A, B, C);   %check inputs
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 819)" style="font-weight:bold">alg_template>alg_grmc2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',819,0)">line 819</a>)
+   Z=sylvester(nu1*eye(size(Z,1)),mu1*Lr,nu1*X');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y)
+} 
+run2
+
+START TIME:    30-Dec-2018 16:20:32
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc2
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*************if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:20:59
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc3
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: nr
+*{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('times')" style="font-weight:bold"> .* </a>
+Matrix dimensions must agree.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template>alg_grmc3', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 807)" style="font-weight:bold">alg_template>alg_grmc3</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',807,0)">line 807</a>)
+    r2=sqrt(nu1).*Z'; r3=sqrt(nu2).*Y;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('alg_template', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m', 19)" style="font-weight:bold">alg_template</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)">line 19</a>)
+    Yhat = predFn(Y,Sd,St,test_ind,left_out);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nfold', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m', 78)" style="font-weight:bold">nfold</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\nfold.m',78,0)">line 78</a>)
+        y3 = alg_template(y2,predictionMethod,test_ind,left_out); % predict! (y3 is the
+        predicted matrix)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('crossValidation', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m', 72)" style="font-weight:bold">crossValidation</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\crossValidation.m',72,0)">line 72</a>)
+        [AUCs(i), AUPRs(i)] = nfold(Y,seed,i);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run2', 'C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m', 78)" style="font-weight:bold">run2</a> (<a href="matlab: opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\run2.m',78,0)">line 78</a>)
+            [aupr,aupr_std,auc,auc_std]=crossValidation(Y')
+} 
+opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',19,0)
+opentoline('C:\Users\Aanchal\Desktop\MGRNNMforDTI\helper_functions\alg_template.m',807,0)
+run2
+
+START TIME:    30-Dec-2018 16:22:06
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmc3
+CV Setting Used: S1 - PAIR
+ 
+-----------------------
+
+Data Set: nr
+*if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:23:22
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.8791
+
+
+aupr_std =
+
+    0.0019
+
+
+auc =
+
+    0.9660
+
+
+auc_std =
+
+    0.0056
+
+ 
+Elapsed time is 20.806092 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S2 - DRUG
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.8773
+
+
+aupr_std =
+
+    0.0125
+
+
+auc =
+
+    0.9533
+
+
+auc_std =
+
+    0.0127
+
+ 
+Elapsed time is 7.486560 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S3 - TARGET
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.5418
+
+
+aupr_std =
+
+    0.0309
+
+
+auc =
+
+    0.7502
+
+
+auc_std =
+
+    0.0285
+
+ 
+Elapsed time is 15.841608 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmf
+CV Setting Used: S1 - PAIR
+ 
+lambda_l=0.125, lambda_d=0.15, lambda_t=0.05, p=2
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.7941
+
+
+aupr_std =
+
+    0.0236
+
+
+auc =
+
+    0.9591
+
+
+auc_std =
+
+    0.0090
+
+ 
+Elapsed time is 1.644337 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmf
+CV Setting Used: S2 - DRUG
+ 
+lambda_l=0.0625, lambda_d=0.05, lambda_t=0.1, p=2
+-----------------------
+
+Data Set: nr
+*************if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:24:14
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*************if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:24:27
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmf
+CV Setting Used: S1 - PAIR
+ 
+lambda_l=0.125, lambda_d=0.15, lambda_t=0.05, p=2
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.7941
+
+
+aupr_std =
+
+    0.0236
+
+
+auc =
+
+    0.9591
+
+
+auc_std =
+
+    0.0090
+
+ 
+Elapsed time is 3.103369 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmf
+CV Setting Used: S2 - DRUG
+ 
+lambda_l=0.0625, lambda_d=0.05, lambda_t=0.1, p=2
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.8847
+
+
+aupr_std =
+
+    0.0112
+
+
+auc =
+
+    0.9503
+
+
+auc_std =
+
+    0.0126
+
+ 
+Elapsed time is 1.426913 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmf
+CV Setting Used: S3 - TARGET
+ 
+lambda_l=0.125, lambda_d=0.2, lambda_t=0.05, p=2
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.5601
+
+
+aupr_std =
+
+    0.0322
+
+
+auc =
+
+    0.7997
+
+
+auc_std =
+
+    0.0195
+
+ 
+Elapsed time is 1.397818 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = cmf
+CV Setting Used: S1 - PAIR
+ 
+lambda_l=1, lambda_d=2, lambda_t=0.125
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.5893
+
+
+aupr_std =
+
+    0.0148
+
+
+auc =
+
+    0.8448
+
+
+auc_std =
+
+    0.0195
+
+ 
+Elapsed time is 1.630742 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = cmf
+CV Setting Used: S2 - DRUG
+ 
+lambda_l=1, lambda_d=4, lambda_t=32
+-----------------------
+
+Data Set: nr
+**************************************************
+aupr =
+
+    0.9274
+
+
+aupr_std =
+
+    0.0226
+
+
+auc =
+
+    0.9741
+
+
+auc_std =
+
+    0.0097
+
+ 
+Elapsed time is 1.371020 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = cmf
+CV Setting Used: S3 - TARGET
+ 
+lambda_l=0.25, lambda_d=0.25, lambda_t=32
+-----------------------
+
+Data Set: nr
+************************if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:25:36
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+*******if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:25:45
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = rls_wnn
+CV Setting Used: S1 - PAIR
+ 
+sigma=0.5, alpha=0.2, eta=0.6
+-----------------------
+
+Data Set: nr
+*********************************if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+if system_dependent('IsDebugMode')==1, dbcont; end
+
+START TIME:    30-Dec-2018 16:26:13
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: gpcr
+**if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:26:23
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: ic
+**if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:26:43
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+-----------------------
+
+Data Set: e
+**if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:28:13
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = rls_wnn
+CV Setting Used: S1 - PAIR
+ 
+sigma=0.5, alpha=0.2, eta=0.6
+-----------------------
+
+Data Set: nr
+*************************if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:28:20
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = rls_wnn
+CV Setting Used: S1 - PAIR
+ 
+sigma=1, alpha=0.5, eta=0.2
+-----------------------
+
+Data Set: gpcr
+**************************************************
+aupr =
+
+    0.9211
+
+
+aupr_std =
+
+    0.0066
+
+
+auc =
+
+    0.9884
+
+
+auc_std =
+
+    0.0016
+
+ 
+Elapsed time is 2.878674 seconds.
+-----------------------
+===========================================
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = rls_wnn
+CV Setting Used: S2 - DRUG
+ 
+sigma=0.5, alpha=1, eta=0.7
+-----------------------
+
+Data Set: gpcr
+if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:28:28
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = rls_wnn
+CV Setting Used: S1 - PAIR
+ 
+sigma=2, alpha=0.4, eta=0.1
+-----------------------
+
+Data Set: ic
+***********************************if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:28:33
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = rls_wnn
+CV Setting Used: S1 - PAIR
+ 
+sigma=2, alpha=0.5, eta=0.1
+-----------------------
+
+Data Set: e
+****if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:28:59
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmf
+CV Setting Used: S1 - PAIR
+ 
+lambda_l=0.5, lambda_d=0.3, lambda_t=0.3, p=7
+-----------------------
+
+Data Set: e
+**if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:29:12
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmf
+CV Setting Used: S1 - PAIR
+ 
+lambda_l=0.5, lambda_d=0.3, lambda_t=0.3, p=3
+-----------------------
+
+Data Set: ic
+**if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:29:19
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = grmf
+CV Setting Used: S1 - PAIR
+ 
+lambda_l=0.5, lambda_d=0.3, lambda_t=0.3, p=3
+-----------------------
+
+Data Set: gpcr
+*****if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:29:31
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = cmf
+CV Setting Used: S1 - PAIR
+ 
+lambda_l=1, lambda_d=0.25, lambda_t=0.5
+-----------------------
+
+Data Set: gpcr
+****if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:29:44
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = cmf
+CV Setting Used: S1 - PAIR
+ 
+lambda_l=1, lambda_d=0.0625, lambda_t=2
+-----------------------
+
+Data Set: e
+**if system_dependent('IsDebugMode')==1, dbquit; end
+run2
+
+START TIME:    30-Dec-2018 16:30:15
+
+
+datasets =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {'e'}    {'ic'}    {'gpcr'}    {'nr'}
+
+gridSearchMode = 0
+ 
+
+similarity_types =
+
+  1×13 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+  Columns 1 through 5
+
+    {'correlation'}    {'correlation'}    {'correlation'}    {'correlation'}    {'cosine'}
+
+  Columns 6 through 11
+
+    {'cosine'}    {'cosine'}    {'cosine'}    {'jaccard'}    {'jaccard'}    {'jaccard'}
+
+  Columns 12 through 13
+
+    {'jaccard'}    {'hamming'}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+===========================================
+Prediction method = mgrnnm
+CV Setting Used: S1 - PAIR
+ 
+
+method =
+
+    'NNM'
+
+
+lamda =
+
+    0.1000
+
+-----------------------
+
+Data Set: nr
+**
