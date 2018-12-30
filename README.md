@@ -16,7 +16,5 @@ MGRNNM predicts the interactions between drugs and proteins from three inputs: k
 
 ### References
 1. Code for baselines: [Ezzat A, Wu M, Li XL, Kwoh CK. Computational prediction of drug–target interactions using chemogenomic approaches: an empirical survey.Briefings in bioinformatics. 2018](https://github.com/alizat/Chemogenomic-DTI-Prediction-Methods)
-Briefings in Bioinformatics
-Ali Ezzat, Min Wu, Xiao-Li Li, Chee-Keong Kwoh
 2. Dataset: [Yamanishi Y, Araki M, Gutteridge A, Honda W, Kanehisa M. Prediction of drug–target interaction networks from the integration of chemical and genomic spaces Bioinformatics. 2008;24(13):i232–i240.](http://web.kuicr.kyoto-u.ac.jp/supp/yoshi/drugtarget/).
 
