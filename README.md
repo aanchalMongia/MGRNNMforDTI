@@ -5,7 +5,7 @@
 ### Brief Description
 This repository has been created to hold the source code for the following paper
 
-[Drug-Target Interaction prediction using Multi Graph Regularized Nuclear Norm Minimization]( )
+[Drug-Target Interaction prediction using Multi Graph Regularized Nuclear Norm Minimization](https://www.biorxiv.org/content/10.1101/774539v1.abstract)
 
 ### About 
 MGRNNM predicts the interactions between drugs and proteins from three inputs: known drug-target interaction network, similarities over drugs and those over targets. The proposed method focuses on finding a low-rank interaction matrix that is structured by the proximities of drugs and targets encoded by graphs. Previous works on Drug Target Interaction (DTI) prediction have shown that incorporating drug and target similarities helps in learning the data manifold better by preserving the local geometries of the original data. But, there is no clear consensus on which kind and what combination of similarities would best assist the prediction task. Hence, we propose to use various multiple drug-drug similarities and target-target similarities as multiple graph Laplacian (over drugs/targets) regularization terms to capture the proximities exhaustively.
